@@ -46,7 +46,7 @@ int main()
 	}
 
 	sf::ContextSettings settings; settings.antialiasingLevel = 16; settings.depthBits = 24;
-	sf::RenderWindow window(sf::VideoMode(640, 360), "2D Shadows", sf::Style::None, settings);
+	sf::RenderWindow window(sf::VideoMode(640, 360), "2D Shadows", sf::Style::Close, settings);
 	window.setActive();
 	
 	Shadow main(segments);
